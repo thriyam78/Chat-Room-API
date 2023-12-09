@@ -77,7 +77,7 @@ wss.on("connection", (connection, req) => {
         if (err) {
           console.error("Error writing file:", err);
         } else {
-          console.log("File Saved:", pathName);
+          console.log("File Saved:");
         }
       });
     }
